@@ -49,6 +49,8 @@ public class MainController : MonoBehaviour {
 			timeManager.TimerUpdate();
 			if(timeManager.draftStatus == TimeManager.DraftStatus.FINISH){
 				timerStatus = TimerStatus.FINISH;
+				pauseButton.SetActive (false);
+				startButton.SetActive (true);
 			}
 		}
 	}

@@ -30,6 +30,8 @@ public class TimeManager : MonoBehaviour {
 	public DraftStatus draftStatus = DraftStatus.PICK;
 
 	public void Initialize() {
+		countsOfPack = 0;
+		countsOfPick = 0;
 		draftStatus = DraftStatus.PICK;
 		time = specifiedDraftTime[countsOfPick++];
 		packCountText.text = "1PACK";
@@ -46,28 +48,27 @@ public class TimeManager : MonoBehaviour {
 
 	private void SetNextDraft(){
 		if(draftStatus == DraftStatus.PICK){
-			if(countsOfPick != 15){
+			if (countsOfPick != 15) {
 				draftStatus = DraftStatus.EXCHANGE;
 				time = exchangeIntervalTime;
-			} else {
+			} else if (countsOfPack != 2) {
 				draftStatus = DraftStatus.CONFIRM_PICK;
 				countsOfPick = 0;
-			}
-		} else if(draftStatus == DraftStatus.EXCHANGE){
-			draftStatus = DraftStatus.PICK;
-			time = specifiedDraftTime[countsOfPick++];
-		} else if(draftStatus == DraftStatus.CONFIRM_PICK){
-			if(countsOfPack != 2){
-				packCountText.text = string.Format("{0}PACK", countsOfPack + 1);
-				draftStatus = DraftStatus.OPEN_PACK;
-				time = openPackTime;
+				time = specifiedPackIntervalTime [countsOfPack++];
 			} else {
 				draftStatus = DraftStatus.CONSTRUCT;
 				time = constructDeckTime;
 			}
+		} else if(draftStatus == DraftStatus.EXCHANGE){
+			draftStatus = DraftStatus.PICK;
+			time = specifiedDraftTime[countsOfPick++];
+		} else if(draftStatus == DraftStatus.CONFIRM_PICK){			
+			packCountText.text = string.Format("{0}PACK", countsOfPack + 1);
+			draftStatus = DraftStatus.OPEN_PACK;
+			time = openPackTime;
 		} else if(draftStatus == DraftStatus.OPEN_PACK){
 			draftStatus = DraftStatus.PICK;
-			time = specifiedDraftTime[countsOfPack++];
+			time = specifiedDraftTime[countsOfPick++];
 		} else if(draftStatus ==  DraftStatus.CONSTRUCT){
 			draftStatus = DraftStatus.FINISH;
 			statusText.text = "FINISH";
