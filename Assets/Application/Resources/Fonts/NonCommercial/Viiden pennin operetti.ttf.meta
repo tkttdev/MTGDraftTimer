@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5dba38533f71769418faea876678855b
+timeCreated: 1495470825
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Viiden pennin operetti
+  fontNames:
+  - Viiden pennin operetti
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

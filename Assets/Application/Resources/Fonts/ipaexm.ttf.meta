@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bfe521082c633c14b898c3148af99cf9
+timeCreated: 1495470829
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: IPAexMincho
+  fontNames:
+  - IPAexMincho
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

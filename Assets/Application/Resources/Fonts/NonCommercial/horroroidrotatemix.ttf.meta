@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4aaf991ff45269e44bd3b02144d9c49f
+timeCreated: 1495470825
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Horroroid Rotated Mix
+  fontNames:
+  - Horroroid Rotated Mix
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

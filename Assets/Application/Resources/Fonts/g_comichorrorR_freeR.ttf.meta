@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 41f979e47e10dc44b9754dc325276fad
+timeCreated: 1495470824
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: g_comichorrorR_free-Regular
+  fontNames:
+  - g_comichorrorR_free-Regular
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

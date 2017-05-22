@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ff23f79642bed8a48adf4407d7ea8502
+timeCreated: 1495470833
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Horroroid 3D
+  fontNames:
+  - Horroroid 3D
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

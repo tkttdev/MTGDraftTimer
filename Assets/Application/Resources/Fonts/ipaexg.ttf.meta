@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2b44da04bde7db0419d8b4eb8edceb75
+timeCreated: 1495470823
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: IPAexGothic
+  fontNames:
+  - IPAexGothic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

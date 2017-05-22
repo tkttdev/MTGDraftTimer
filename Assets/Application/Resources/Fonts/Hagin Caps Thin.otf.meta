@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2c5fc03a84cb07a4ab8f5621bc00223d
+timeCreated: 1495470824
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hagin Caps Thin
+  fontNames:
+  - Hagin Caps Thin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
