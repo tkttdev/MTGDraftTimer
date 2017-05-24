@@ -7,11 +7,11 @@ public class TimeManager : MonoBehaviour {
 	[SerializeField]private Text timerText;
 	[SerializeField]private Text statusText;
 	[SerializeField]private Text packCountText;
-	private readonly float[] specifiedDraftTime = new float[15]{40f, 40f, 35f, 30f, 25f, 25f, 20f, 20f, 15f, 10f, 10f, 5f, 5f, 5f, 3f};
+	private readonly float[] specifiedDraftTime = new float[15]{40f, 40f, 35f, 30f, 25f, 25f, 20f, 20f, 15f, 10f, 10f, 5f, 5f, 5f};
 	private readonly float[] specifiedPackIntervalTime = new float[3]{60f, 90f, 120f};
 	private const float exchangeIntervalTime = 3.0f;
 	private const float openPackTime = 8.0f;
-	private const float constructDeckTime = 180f;
+	private const float constructDeckTime = 600f;
 	private float time = 0.0f;
 	private int countsOfPack = 0;
 	private int countsOfPick = 0;
@@ -48,7 +48,7 @@ public class TimeManager : MonoBehaviour {
 
 	private void SetNextDraft(){
 		if(draftStatus == DraftStatus.PICK){
-			if (countsOfPick != 15) {
+			if (countsOfPick != 14) {
 				draftStatus = DraftStatus.EXCHANGE;
 				time = exchangeIntervalTime;
 			} else if (countsOfPack != 2) {
